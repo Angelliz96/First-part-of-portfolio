@@ -1,0 +1,164 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.fa-solid.fa-feather {
+  color: #fc92e3; 
+}
+
+img {
+  max-width: 200px;
+  border-radius: 50%;
+  width: 50%;
+}
+
+nav {
+  background-color: #fefea4; 
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+nav ul:hover {
+  background-color: #fed96b; 
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: black; 
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* About section */
+.about {
+  padding: 20px;
+  background-color: #fefea4; 
+}
+
+.content {
+  display: flex;
+}
+
+.about {
+  flex: 1;
+}
+
+.about h2 {
+  margin-bottom: 10px;
+}
+
+.about p {
+  margin: 0;
+}
+
+.profile-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+/* Work section */
+.work {
+  padding: 20px;
+  background-color: #fefea4;
+}
+
+.thumbnails {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.thumbnails img {
+  width: 100%;
+  height: auto;
+}
+
+/* Contact section */
+.contact {
+  padding: 20px;
+  background-color: #fefea4; 
+}
+
+form {
+  display: grid;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #fc92e3; /* Color #fc92e3 - Rosa claro */
+  color: black; /* Color de texto en negro */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fc92e3; /* Color #fc92e3 - Rosa claro */
+}
+
+  
+/* Footer section */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #ee7cff; /* Color #ee7cff - Violeta */
+  color: black; /* Color de texto en negro */
+}
+
+@media screen and (max-width: 700px) {
+  img.profile-img {
+    max-width: 150px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  img.profile-img {
+    max-width: 100px;
+  }
+}
